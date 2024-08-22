@@ -24,6 +24,59 @@
     background-color: #111111;
   }
 
+  .behind-border{
+    border: 2px solid pink;
+  }
+
+  .see-border{
+    border: 2px solid blue;
+  }
+
+  .text-grey{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .text-white{
+    color: #FFFFFF;
+
+  }
+
+  .text-white-normal{
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0px 10px;
+  }
+
+
+  .text-grey-normal{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+  }
+
+  .button-normal{
+    position: static;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    
+  }
+
+
+  
+  
+
+  
+
+
+
+
 /* Header related styles,   navbar and banner */
 
   /*   navbar related styles */
@@ -62,6 +115,12 @@
     
   }
 
+  .ham-show{
+    list-style: none;
+    display: none;
+  }
+
+
   .navbar{
     justify-content: space-between;
     align-items: center;
@@ -96,9 +155,227 @@
     /* padding: 10px; */
     padding: 13px 40px;
     
-    
 
 }
+
+.ham{
+    width: 15px;
+    height: 15px;
+    /* border: 2px solid blue; */
+    
+
+    
+}
+
+
+
+/* Banner related styles starts here */
+
+
+.banner{
+  gap: 190px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.banner-text-container{
+
+  border: 2px solid aqua;
+  max-width: 520px;
+
+ 
+  
+
+}
+
+.banner-description{
+   max-width: 520px;
+   max-height: 48px;
+   margin-bottom: 28px;
+   
+}
+
+
+.download-now{
+   position: static;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: #111111;
+
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+
+    
+}
+
+.banner-text-title{
+  color: rgb(255, 255, 255);
+  font-size: 4.875rem;
+  font-weight: 900;
+  margin-bottom: 28px;
+
+}
+
+.shape{
+  
+  
+}
+
+
+.image-box{
+  
+max-width: 349px;
+height: 580px;
+border: 2px solid salmon;
+margin-top: -50px;
+
+
+}
+
+/* 2 boxes in banner starts here  */
+ 
+.box500-container{
+
+  
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  left: 1107px;
+  top: 260px;
+
+
+
+
+  box-sizing: border-box;
+border: 0.76px solid rgba(255, 255, 255, 0.1);
+border-radius: 9.07px;
+
+backdrop-filter: blur(15.12px);
+background: rgba(255, 255, 255, 0.1);
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+padding-bottom: 10px;
+padding-bottom: 15px;
+
+}
+
+.five-hundred {
+   margin-top: 10px;
+   color: rgb(255, 255, 255);
+   font-size: 2rem;
+   font-weight: 900;
+
+   /* border: 2px solid pink; */
+
+   
+
+  
+}
+
+
+.five-hundred-description{
+
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+font-weight: 400;
+
+ margin-top: 5px;
+
+ /* border: 2px solid pink; */
+
+
+}
+
+
+.box350-container{
+
+
+  position: absolute;
+width: 206px;
+height: 96px;
+left: 764px;
+top: 556px;
+
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+
+}
+
+.three-hundred{
+  color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+
+
+width: 68px;
+height: 24px;
+left: 839px;
+top: 576px;
+text-align: left;
+
+margin-left: 20px;
+
+
+
+}
+
+.three-hundred-description{
+
+  color: rgba(239, 237, 232, 0.65);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+
+  width: 108px;
+height: 24px;
+left: 839px;
+top: 608px;
+
+text-align: left;
+
+margin-left: 20px;
+
+}
+
+
+.eclips{
+  position: static;
+  /* width: 224px;
+  height: 54px; */
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+
+  width: 40px;
+height: 40px;
+left: 787px;
+top: 584px;
+
+margin-left: 15px;
+margin-top: 25px;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -106,6 +383,54 @@
 /* Responsive media query for small device*/
 
 @media screen and (max-width: 576px){
+    .nav-item{
+        display: none;
+        
+    }
+
+    
+    .ham-show{
+        display: block;
+        margin-left: 21px;
+    }
+
+    .nav-links{
+        border: none;
+    }
+
+    .brand{
+        margin-left: 18px;
+       
+        /* margin-right: 20px; */
+    }
+
+    .banner{
+      flex-direction: column;
+    }
+
+    .box350-container{
+
+
+
+
+      left: 32px;
+      top: 1200px;
+
+    }
+
+    .box500-container{
+      width: 145.91px;
+     height: 74.09px;
+      left: 250px;
+      top: 1000px;
+      
+    }
+
+    .five-hundred {
+      font-size: 1rem;
+    }
+
+
 
 
 }
