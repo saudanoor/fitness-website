@@ -483,9 +483,156 @@ text-align: center;
 
 }
 
+/* Main two starts here */
+
+.main-two{
+  border: 2px solid red;
+
+        max-width: 1044px;
+
+        border-radius: 18px;
+
+   background: rgb(34, 34, 34);
+
+   display: flex;
+   justify-items: center;
+   align-items: center;
+
+   gap: 50px;
+
+   padding:  0 30px;
+
+   margin-top: 100px;
+   
+}
+
+.text-part{
+  max-width:  443px;
+
+  /* margin-left: 15px; */
+
+}
 
 
 
+
+.button-join{
+  /* position: static; */
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  
+}
+
+.img-part{
+  width: 366px;
+height: 312px;
+}
+
+.img-part{
+  border: 2px solid rgb(233, 14, 50);
+  width: 366px;
+height: 280px;
+
+
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: contain;
+
+  margin: 0 auto ;
+  
+}
+
+.img-run img {
+  
+  height: 90%;
+  width: 90%;
+  
+}
+
+/* Main three starts here */
+
+.main-three{
+  border: 2px solid violet;
+  max-width:  1060px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 58px;
+}
+
+.main-three-text{
+  width: 671px;
+height: 120px;
+}
+
+
+
+
+
+
+/* MAIN THREE IMAGES ARE HERE */
+
+
+
+.main-three-img-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: none;
+  
+}
+
+
+.img-1 img{
+  position: absolute;
+  border: 2px solid salmon;
+  max-width:  323px;
+ height: 218px;
+  
+}
+
+
+.img-2 img{
+  position: absolute;
+  border: 2px solid salmon;
+  max-width: 539px;
+height: 256px;
+
+
+
+
+
+}
+.img-3 img{
+  
+  border: 2px solid  powderblue;
+  max-width: 388px;
+height: 214px;
+
+}
+.img-4 img{
+  border: 2px solid salmon;
+  max-width: 435px;
+  height: 240px;
+
+}
+.img-5 img{
+  border: 2px solid  salmon;
+  max-width: 408px;
+height: 219px;
+
+}
+.img-6 img{
+  border: 2px solid powderblue;
+  max-width:376px;
+height: 250px;
+
+}
 
 
 
@@ -578,12 +725,32 @@ text-align: center;
     
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-
-      
-    
-      
       
     }
+
+    /* Main two starts here */
+
+    .main-two{
+      flex-direction: column;
+    }
+
+
+
+    .main-three-img-box{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: none;
+      
+    }
+
+    /* .img-6 img{
+      display: none;
+    }
+    .img-5 img{
+      display: none;
+    } */
+
+
 
 
 
