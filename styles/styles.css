@@ -634,7 +634,65 @@ height: 250px;
 
 }
 
+/* MEET TRAINER BOX STARTS HERE */
 
+.meet-team-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  /* gap: 70px; */
+
+
+
+}
+
+.text-align{
+  text-align: center;
+}
+
+.meet-img-box-container {
+  border: 3px solid green;
+
+  width: 1060px;
+  height: 604px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  justify-items: center;
+  align-items: center;
+
+  margin-top: 80px;
+
+  
+
+  background: rgba(255, 255, 255, 0.1);
+
+  margin-bottom: 100px;
+
+
+}
+
+.meet-img-style img{
+  display: block;
+border: 3px solid peru;
+
+  width: 326.67px;
+  height: 272px;
+  border-radius: 18px;
+background: rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+.img-text{
+  position: absolute;
+  bottom: 200px;
+  
+}
 
 
 
@@ -752,6 +810,24 @@ height: 250px;
 
 
 
+/* Meet trainer starts here */
 
+.meet-img-box-container{
+ background: rgba(255, 255, 255, 0.1);
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  padding-bottom: 600px ;
+}
+
+
+.meet-img-style{
+  background: rgba(255, 255, 255, 0.1);
+  
+}
+
+.meet-img-1  , .meet-img-4{
+  display: none;
+}
 
 }
